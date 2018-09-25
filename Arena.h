@@ -6,21 +6,22 @@
 #include "Robot.h"
 #include <vector>
 #include <sstream>
+#include <iostream>
 
 using namespace std;
 
-class Arena : class ArenaInterface{
+class Arena : public ArenaInterface{
 public:
   Arena(){}
-  ~Race(){}
+  ~Arena(){}
 
-  bool addFighter(string info);//fill params
+  bool addFighter(string info);
 
-  bool removeFighter(string name);//fil params
+  bool removeFighter(string name);
 
-  FighterInterface* getFighter(string name); //find out what params
+  FighterInterface* getFighter(string name);
 
-  int getSize() const = 0;
+  int getSize() const;
 private:
   vector<Fighter*> fighterVec;
-}
+};

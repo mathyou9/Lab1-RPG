@@ -1,0 +1,46 @@
+getSize 0
+addFighter Josh A 100 3 4 5 Added
+addFighter Kel C 100 3 4 5 Added
+addFighter Nebula R 100 3 4 5 Added
+addFighter Spryte C 100 3 4 5 Added
+addFighter Vale R 100 3 4 5 Added
+addFighter Spen00 A 100 3 4 5 Added
+reset Josh Success
+reset Kel Success
+reset Nebula Success
+reset Spryte Success
+reset Vale Success
+reset Spen00 Success
+getSize 6
+battle Josh Kel
+
+  Josh 0 0 3 4 5
+  Kel 0 0 3 4 5
+battle Nebula Spryte
+
+  Nebula 0 0 3 4 5
+  Spryte 0 0 3 4 5
+battle Vale Spen00
+
+  Vale 0 0 3 4 5
+  Spen00 0 0 3 4 5
+getFighter Josh
+  Josh 0 0 3 4 5
+getFighter Kel
+  Kel 0 0 3 4 5
+getFighter Nebula
+  Nebula 0 0 3 4 5
+getFighter Spryte
+  Spryte 0 0 3 4 5
+getFighter Vale
+  Vale 0 0 3 4 5
+getFighter Spen00
+  Spen00 0 0 3 4 5
+removeFighter Josh True
+removeFighter Kel True
+removeFighter Nebula True
+removeFighter Spryte True
+removeFighter Vale True
+removeFighter Spen00 True
+removeFighter Al False
+getSize 0

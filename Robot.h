@@ -1,10 +1,19 @@
+#pragma once
 #include "Fighter.h"
+#include <string>
+#include <iostream>
+using namespace std;
 
-class Robot : class Fighter{
+
+class Robot : public Fighter{
 public:
-  Robot(string fighterName, int fighterSpeed):Fighter(fighterName, fighterSpeed){};
+  Robot(std::string fighterName, int fighterHP, int fighterStrength, int fighterSpeed, int fighterMagic):Fighter(fighterName, fighterHP, fighterStrength, fighterSpeed, fighterMagic){};
   ~Robot(){};
-
+  int getDamage();
+  void reset();
+  bool useAbility();
 private:
-
-}
+  int current_energy;
+  int energy = magic * 2;
+  int bonus_damage = 0;
+};

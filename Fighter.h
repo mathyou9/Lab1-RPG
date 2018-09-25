@@ -1,35 +1,53 @@
+#pragma once
 #include "FighterInterface.h"
+#include <iostream>
+#include <string>
+using namespace std;
 
-class Fighter : class FighterInterface{
+class Fighter : public FighterInterface{
 public:
-  Fighter(){
-
+  Fighter(std::string myName,int myhp, int mystrength, int mySpeed, int mymagic){
+    cout << "In Fighter Constructor " << myName << " " << myhp << " " << mystrength << " " << mySpeed << " " << mymagic << endl;
+    name = myName;
+    speed = mySpeed;
+    originalSpeed = mySpeed;
+    hp = myhp;
+    maxHP = myhp;
+    strength = mystrength;
+    magic = mymagic;
+    damage = 0;
   };
   ~Fighter(){}
 
-  virtual std::string getName() const = 0;
+  string getName() const;
 
-	virtual int getMaximumHP() const z= 0;
+	int getMaximumHP() const;
 
-	virtual int getCurrentHP() const = 0;
+  int getCurrentHP() const;
 
-	virtual int getStrength() const = 0;
+	int getStrength() const;
 
-	virtual int getSpeed() const = 0;
+	int getSpeed() const;
 
-	virtual int getMagic() const = 0;
+	int getMagic() const;
 
 	virtual int getDamage() = 0;
 
-	virtual void takeDamage(int damage) = 0;
+	void takeDamage(int damage);
 
 	virtual void reset() = 0;
 
-	virtual void regenerate() = 0;
+	virtual void regenerate();
 
 	virtual bool useAbility() = 0;
 
 protected:
-
-
-}
+  string name;
+  int speed;
+  int hp;
+  int maxHP;
+  int strength;
+  int magic;
+  int damage;
+  int originalSpeed;
+};

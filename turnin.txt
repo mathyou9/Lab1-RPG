@@ -1,0 +1,209 @@
+getSize 0
+getFighter Josh NULL
+addFighter Josh A 2 3 4 5 Added
+getSize 1
+getFighter Josh
+  Josh 0 0 3 4 5
+removeFighter Josh True
+getFighter Josh NULL
+getSize 0
+getSize 0
+addFighter Josh A 100 3 4 5 Added
+addFighter Kel C 100 3 4 5 Added
+addFighter Nebula R 100 3 4 5 Added
+addFighter Spryte C 100 3 4 5 Added
+addFighter Vale R 100 3 4 5 Added
+addFighter Spen00 A 100 3 4 5 Added
+getSize 6
+battle Josh Kel
+
+  Josh 0 0 3 4 5
+  Kel 0 0 3 4 5
+battle Nebula Spryte
+
+  Nebula 0 0 3 4 5
+  Spryte 0 0 3 4 5
+battle Vale Spen00
+
+  Vale 0 0 3 4 5
+  Spen00 0 0 3 4 5
+getFighter Josh
+  Josh 0 0 3 4 5
+getFighter Kel
+  Kel 0 0 3 4 5
+getFighter Nebula
+  Nebula 0 0 3 4 5
+getFighter Spryte
+  Spryte 0 0 3 4 5
+getFighter Vale
+  Vale 0 0 3 4 5
+getFighter Spen00
+  Spen00 0 0 3 4 5
+reset Josh Success
+reset Kel Success
+reset Nebula Success
+reset Spryte Success
+reset Vale Success
+reset Spen00 Success
+getFighter Josh
+  Josh 0 0 3 4 5
+getFighter Kel
+  Kel 0 0 3 4 5
+getFighter Nebula
+  Nebula 0 0 3 4 5
+getFighter Spryte
+  Spryte 0 0 3 4 5
+getFighter Vale
+  Vale 0 0 3 4 5
+getFighter Spen00
+  Spen00 0 0 3 4 5
+getSize 0
+addFighter Josh A 100 3 4 5 Added
+addFighter Kel C 100 3 4 5 Added
+addFighter Nebula R 100 3 4 5 Added
+addFighter Spryte C 100 3 4 5 Added
+addFighter Vale R 100 3 4 5 Added
+addFighter Spen00 A 100 3 4 5 Added
+reset Josh Success
+reset Kel Success
+reset Nebula Success
+reset Spryte Success
+reset Vale Success
+reset Spen00 Success
+getSize 6
+battle Josh Kel
+
+  Josh 0 0 3 4 5
+  Kel 0 0 3 4 5
+battle Nebula Spryte
+
+  Nebula 0 0 3 4 5
+  Spryte 0 0 3 4 5
+battle Vale Spen00
+
+  Vale 0 0 3 4 5
+  Spen00 0 0 3 4 5
+getFighter Josh
+  Josh 0 0 3 4 5
+getFighter Kel
+  Kel 0 0 3 4 5
+getFighter Nebula
+  Nebula 0 0 3 4 5
+getFighter Spryte
+  Spryte 0 0 3 4 5
+getFighter Vale
+  Vale 0 0 3 4 5
+getFighter Spen00
+  Spen00 0 0 3 4 5
+removeFighter Josh True
+removeFighter Kel True
+removeFighter Nebula True
+removeFighter Spryte True
+removeFighter Vale True
+removeFighter Spen00 True
+removeFighter Al False
+getSize 0
+removeFighter John False
+addFighter Jason A 1 1 1 Invalid
+addFighter Yason A 1 1 m 1 Invalid
+addFighter Hason 1 1 1 1 Invalid
+addFighter Lason A 1 1 1 1 1 Added
+addFighter Mason A 1 2 3 4 Added
+addFighter Mason C 5 6 7 8 Added
+removeFighter Mason True
+getSize 2
+getSize 0
+addFighter Fumblemore C 100 10 10 100 Added
+addFighter Creeper R 10 100 1 1 Added
+addFighter Cow R 10 2 1 3 Added
+addFighter Sheep A 5 1 1 1 Added
+addFighter Tinman R 100 5 1 7 Added
+addFighter Spacker R 50 1 1 1 Added
+addFighter Joshua R 1000 10 80 10 Added
+addFighter NORAD R 750 30 40 1 Added
+addFighter Honeydew R 150 14 8 11 Added
+addFighter HoneydewClone R 150 14 8 11 Added
+addFighter Israphel A 90 12 16 1 Added
+addFighter IsraphelClone A 90 12 16 1 Added
+addFighter Father_Braeburn C 90 4 12 20 Added
+addFighter Father_BraeburnClone C 90 4 12 20 Added
+battle Fumblemore Creeper
+
+  Fumblemore 0 0 10 10 100
+  Creeper 0 0 100 1 1
+reset Fumblemore Success
+reset Creeper Success
+battle Creeper Sheep
+
+  Creeper 0 0 100 1 1
+  Sheep 0 0 1 1 1
+reset Creeper Success
+reset Sheep Success
+battle Cow Sheep
+
+  Cow 0 0 2 1 3
+  Sheep 0 0 1 1 1
+reset Cow Success
+reset Sheep Success
+battle Tinman Spacker
+
+  Tinman 0 0 5 1 7
+  Spacker 0 0 1 1 1
+reset Tinman Success
+reset Spacker Success
+battle Joshua NORAD
+
+  Joshua 0 0 10 80 10
+  NORAD 0 0 30 40 1
+reset Joshua Success
+reset NORAD Success
+battle Honeydew HoneydewClone
+
+  Honeydew 0 0 14 8 11
+  HoneydewClone 0 0 14 8 11
+reset Honeydew Success
+reset HoneydewClone Success
+battle Israphel IsraphelClone
+
+  Israphel -1265999712 -1265999712 12 16 1
+  IsraphelClone 0 0 12 16 1
+reset Israphel Success
+reset IsrahelClone NULL
+battle Father_Braeburn Father_BraeburnClone
+
+  Father_Braeburn 0 0 4 12 20
+  Father_BraeburnClone 0 0 4 12 20
+reset Father_Braeburn Success
+reset Father_BraeburnClone Success
+battle Honeydew Israphel
+
+  Honeydew 0 0 14 8 11
+  Israphel -1265999712 -1265999712 12 16 1
+reset Honeydew Success
+reset Israphel Success
+battle Israphel Father_Braeburn
+
+  Israphel -1265999712 -1265999712 12 16 1
+  Father_Braeburn 0 0 4 12 20
+reset Israphel Success
+reset Father_Braeburn Success
+battle Honeydew Father_Braeburn
+
+  Honeydew 0 0 14 8 11
+  Father_Braeburn 0 0 4 12 20
+reset Honeydew Success
+reset Father_Braeburn Success
+removeFighter Fumblemore True
+removeFighter Creeper True
+removeFighter Cow True
+removeFighter Sheep True
+removeFighter Tinman True
+removeFighter Spacker True
+removeFighter Joshua True
+removeFighter NORAD True
+removeFighter Honeydew True
+removeFighter HoneydewClone True
+removeFighter Israphel True
+removeFighter IsraphelClone True
+removeFighter Father_Braeburn True
+removeFighter Father_BraeburnClone True
