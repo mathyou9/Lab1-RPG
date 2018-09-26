@@ -20,7 +20,7 @@ bool Cleric::useAbility(){
   }
 }
 void Cleric::regenerate(){
-  hp = hp + (strength / 6);
+  //hp = hp + (strength / 6);
   if(mana < magic * 5){
     mana = mana + (magic / 5);
   }

@@ -14,28 +14,265 @@ reset Spen00 Success
 getSize 6
 battle Josh Kel
 
-  Josh 0 0 3 4 5
-  Kel 0 0 3 4 5
+  Josh 100 100 3 0 5
+  Kel 100 100 3 4 5
+
+  Josh 95 100 3 0 5
+  Kel 101 100 3 4 5
+
+  Josh 90 100 3 0 5
+  Kel 102 100 3 4 5
+
+  Josh 85 100 3 0 5
+  Kel 103 100 3 4 5
+
+  Josh 80 100 3 0 5
+  Kel 104 100 3 4 5
+
+  Josh 75 100 3 0 5
+  Kel 105 100 3 4 5
+
+  Josh 70 100 3 0 5
+  Kel 106 100 3 4 5
+
+  Josh 65 100 3 0 5
+  Kel 107 100 3 4 5
+
+  Josh 60 100 3 0 5
+  Kel 108 100 3 4 5
+
+  Josh 55 100 3 0 5
+  Kel 109 100 3 4 5
+
+  Josh 50 100 3 0 5
+  Kel 110 100 3 4 5
+
+  Josh 45 100 3 0 5
+  Kel 111 100 3 4 5
+
+  Josh 40 100 3 0 5
+  Kel 112 100 3 4 5
+
+  Josh 35 100 3 0 5
+  Kel 113 100 3 4 5
+
+  Josh 30 100 3 0 5
+  Kel 114 100 3 4 5
+
+  Josh 25 100 3 0 5
+  Kel 115 100 3 4 5
+
+  Josh 20 100 3 0 5
+  Kel 116 100 3 4 5
+
+  Josh 15 100 3 0 5
+  Kel 117 100 3 4 5
+
+  Josh 10 100 3 0 5
+  Kel 118 100 3 4 5
+
+  Josh 5 100 3 0 5
+  Kel 119 100 3 4 5
+
+  Josh 0 100 3 0 5
+  Kel 120 100 3 4 5
 battle Nebula Spryte
 
-  Nebula 0 0 3 4 5
-  Spryte 0 0 3 4 5
+  Nebula 100 100 3 4 5
+  Spryte 100 100 3 4 5
+
+  Nebula 96 100 3 4 5
+  Spryte 98 100 3 4 5
+
+  Nebula 92 100 3 4 5
+  Spryte 96 100 3 4 5
+
+  Nebula 88 100 3 4 5
+  Spryte 94 100 3 4 5
+
+  Nebula 84 100 3 4 5
+  Spryte 92 100 3 4 5
+
+  Nebula 80 100 3 4 5
+  Spryte 90 100 3 4 5
+
+  Nebula 76 100 3 4 5
+  Spryte 88 100 3 4 5
+
+  Nebula 72 100 3 4 5
+  Spryte 86 100 3 4 5
+
+  Nebula 68 100 3 4 5
+  Spryte 84 100 3 4 5
+
+  Nebula 64 100 3 4 5
+  Spryte 82 100 3 4 5
+
+  Nebula 60 100 3 4 5
+  Spryte 80 100 3 4 5
+
+  Nebula 56 100 3 4 5
+  Spryte 78 100 3 4 5
+
+  Nebula 52 100 3 4 5
+  Spryte 76 100 3 4 5
+
+  Nebula 48 100 3 4 5
+  Spryte 74 100 3 4 5
+
+  Nebula 44 100 3 4 5
+  Spryte 72 100 3 4 5
+
+  Nebula 40 100 3 4 5
+  Spryte 70 100 3 4 5
+
+  Nebula 36 100 3 4 5
+  Spryte 68 100 3 4 5
+
+  Nebula 32 100 3 4 5
+  Spryte 66 100 3 4 5
+
+  Nebula 28 100 3 4 5
+  Spryte 64 100 3 4 5
+
+  Nebula 24 100 3 4 5
+  Spryte 62 100 3 4 5
+
+  Nebula 20 100 3 4 5
+  Spryte 60 100 3 4 5
+
+  Nebula 16 100 3 4 5
+  Spryte 58 100 3 4 5
+
+  Nebula 12 100 3 4 5
+  Spryte 56 100 3 4 5
+
+  Nebula 8 100 3 4 5
+  Spryte 54 100 3 4 5
+
+  Nebula 4 100 3 4 5
+  Spryte 52 100 3 4 5
+
+  Nebula 0 100 3 4 5
+  Spryte 50 100 3 4 5
 battle Vale Spen00
 
-  Vale 0 0 3 4 5
-  Spen00 0 0 3 4 5
+  Vale 100 100 3 4 5
+  Spen00 100 100 3 0 5
+
+  Vale 101 100 3 4 5
+  Spen00 97 100 3 0 5
+
+  Vale 102 100 3 4 5
+  Spen00 94 100 3 0 5
+
+  Vale 103 100 3 4 5
+  Spen00 91 100 3 0 5
+
+  Vale 104 100 3 4 5
+  Spen00 88 100 3 0 5
+
+  Vale 105 100 3 4 5
+  Spen00 85 100 3 0 5
+
+  Vale 106 100 3 4 5
+  Spen00 82 100 3 0 5
+
+  Vale 107 100 3 4 5
+  Spen00 79 100 3 0 5
+
+  Vale 108 100 3 4 5
+  Spen00 76 100 3 0 5
+
+  Vale 109 100 3 4 5
+  Spen00 73 100 3 0 5
+
+  Vale 110 100 3 4 5
+  Spen00 70 100 3 0 5
+
+  Vale 111 100 3 4 5
+  Spen00 67 100 3 0 5
+
+  Vale 112 100 3 4 5
+  Spen00 64 100 3 0 5
+
+  Vale 113 100 3 4 5
+  Spen00 61 100 3 0 5
+
+  Vale 114 100 3 4 5
+  Spen00 58 100 3 0 5
+
+  Vale 115 100 3 4 5
+  Spen00 55 100 3 0 5
+
+  Vale 116 100 3 4 5
+  Spen00 52 100 3 0 5
+
+  Vale 117 100 3 4 5
+  Spen00 49 100 3 0 5
+
+  Vale 118 100 3 4 5
+  Spen00 46 100 3 0 5
+
+  Vale 119 100 3 4 5
+  Spen00 43 100 3 0 5
+
+  Vale 120 100 3 4 5
+  Spen00 40 100 3 0 5
+
+  Vale 121 100 3 4 5
+  Spen00 37 100 3 0 5
+
+  Vale 122 100 3 4 5
+  Spen00 34 100 3 0 5
+
+  Vale 123 100 3 4 5
+  Spen00 31 100 3 0 5
+
+  Vale 124 100 3 4 5
+  Spen00 28 100 3 0 5
+
+  Vale 125 100 3 4 5
+  Spen00 25 100 3 0 5
+
+  Vale 126 100 3 4 5
+  Spen00 22 100 3 0 5
+
+  Vale 127 100 3 4 5
+  Spen00 19 100 3 0 5
+
+  Vale 128 100 3 4 5
+  Spen00 16 100 3 0 5
+
+  Vale 129 100 3 4 5
+  Spen00 13 100 3 0 5
+
+  Vale 130 100 3 4 5
+  Spen00 10 100 3 0 5
+
+  Vale 131 100 3 4 5
+  Spen00 7 100 3 0 5
+
+  Vale 132 100 3 4 5
+  Spen00 4 100 3 0 5
+
+  Vale 133 100 3 4 5
+  Spen00 1 100 3 0 5
+
+  Vale 133 100 3 4 5
+  Spen00 -2 100 3 0 5
 getFighter Josh
-  Josh 0 0 3 4 5
+  Josh 0 100 3 0 5
 getFighter Kel
-  Kel 0 0 3 4 5
+  Kel 120 100 3 4 5
 getFighter Nebula
-  Nebula 0 0 3 4 5
+  Nebula 0 100 3 4 5
 getFighter Spryte
-  Spryte 0 0 3 4 5
+  Spryte 50 100 3 4 5
 getFighter Vale
-  Vale 0 0 3 4 5
+  Vale 133 100 3 4 5
 getFighter Spen00
-  Spen00 0 0 3 4 5
+  Spen00 -2 100 3 0 5
 removeFighter Josh True
 removeFighter Kel True
 removeFighter Nebula True

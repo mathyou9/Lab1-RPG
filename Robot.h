@@ -14,6 +14,6 @@ public:
   bool useAbility();
 private:
   int current_energy;
-  int energy = magic * 2;
-  int bonus_damage = 0;
+  int energy;
+  int bonus_damage;
 };

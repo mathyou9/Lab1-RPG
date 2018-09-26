@@ -10,12 +10,10 @@ public:
     cout << "In Fighter Constructor " << myName << " " << myhp << " " << mystrength << " " << mySpeed << " " << mymagic << endl;
     name = myName;
     speed = mySpeed;
-    originalSpeed = mySpeed;
     hp = myhp;
     maxHP = myhp;
     strength = mystrength;
     magic = mymagic;
-    damage = 0;
   };
   ~Fighter(){}
 
@@ -50,4 +48,5 @@ protected:
   int magic;
   int damage;
   int originalSpeed;
+  int mana;
 };

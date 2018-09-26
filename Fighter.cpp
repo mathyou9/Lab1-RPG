@@ -3,7 +3,7 @@
 using namespace std;
 
 string Fighter::getName() const {
-  cout << "In Fighter getName " << name << endl;
+  cout << "fighter constructor" << name << endl;
   return name;
 }
 int Fighter::getMaximumHP() const{
@@ -11,7 +11,7 @@ int Fighter::getMaximumHP() const{
 }
 
 int Fighter::getCurrentHP() const{
-  return maxHP;
+  return hp;
 }
 
 int Fighter::getStrength() const{
@@ -28,6 +28,7 @@ int Fighter::getMagic() const{
 
 void Fighter::takeDamage(int damage){
   damage = damage - (speed / 4);
+  hp = hp - damage;
 }
 
 void Fighter::regenerate(){
