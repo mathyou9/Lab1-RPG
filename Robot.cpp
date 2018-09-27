@@ -14,15 +14,12 @@ void Robot::reset(){
   bonus_damage = 0;
 }
 bool Robot::useAbility(){
-  double bonus_damage_double;
-  double powerMult;
-  double const POWER = 4.0;
   bonus_damage = 0;
   if(current_energy >= ROBOT_ABILITY_COST){
     powerMult = current_energy/(double)maximum_energy;
     bonus_damage_double = strength * (pow(powerMult, POWER));
     current_energy = current_energy - ROBOT_ABILITY_COST;
-    bonus_damage = bonus_damage_double + 0.5;
+    bonus_damage = bonus_damage_double;
     return true;
   } else{
     return false;

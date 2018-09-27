@@ -36,7 +36,6 @@ void Fighter::takeDamage(int damage){
 }
 
 void Fighter::regenerate(){
-  int regen;
   regen = strength / 6;
   if (regen < 1){
     regen = 1;

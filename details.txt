@@ -615,11 +615,11 @@ removeFighter John False							      |	removeFighter John False
 addFighter Jason A 1 1 1 Invalid							      |	addFighter Jason A 1 1 1 Invalid
 addFighter Yason A 1 1 m 1 Invalid							      |	addFighter Yason A 1 1 m 1 Invalid
 addFighter Hason 1 1 1 1 Invalid							      |	addFighter Hason 1 1 1 1 Invalid
-addFighter Lason A 1 1 1 1 1 Invalid							      |	addFighter Lason A 1 1 1 1 1 Added
+addFighter Lason A 1 1 1 1 1 Invalid							      |	addFighter Lason A 1 1 1 1 1 Invalid
 addFighter Mason A 1 2 3 4 Added							      |	addFighter Mason A 1 2 3 4 Added
-addFighter Mason C 5 6 7 8 Invalid							      |	addFighter Mason C 5 6 7 8 Added
+addFighter Mason C 5 6 7 8 Invalid							      |	addFighter Mason C 5 6 7 8 Invalid
 removeFighter Mason True							      |	removeFighter Mason True
-getSize 0							      |	getSize 2
+getSize 0							      |	getSize 0
 out_file5.txt
 getSize 0							      |	getSize 0
 addFighter Fumblemore C 100 10 10 100 Added							      |	addFighter Fumblemore C 100 10 10 100 Added
@@ -651,7 +651,7 @@ battle Creeper Sheep							      |	battle Creeper Sheep
   Sheep 5 5 1 1 1							      |	  Sheep 5 5 1 1 1
 							      |
   Creeper 10 10 100 1 1							      |	  Creeper 10 10 100 1 1
-  Sheep -95 5 1 1 1							      |	  Sheep -195 5 1 1 1
+  Sheep -95 5 1 1 1							      |	  Sheep -95 5 1 1 1
 reset Creeper Success							      |	reset Creeper Success
 reset Sheep Success							      |	reset Sheep Success
 battle Cow Sheep							      |	battle Cow Sheep
@@ -671,585 +671,585 @@ battle Tinman Spacker							      |	battle Tinman Spacker
   Tinman 100 100 5 1 7							      |	  Tinman 100 100 5 1 7
   Spacker 50 50 1 1 1							      |	  Spacker 50 50 1 1 1
 							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
   Spacker 41 50 1 1 1							      |	  Spacker 41 50 1 1 1
 							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 37 50 1 1 1							      |	  Spacker 34 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 33 50 1 1 1							      |	  Spacker 29 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 29 50 1 1 1							      |	  Spacker 24 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 25 50 1 1 1							      |	  Spacker 20 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 21 50 1 1 1							      |	  Spacker 16 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 17 50 1 1 1							      |	  Spacker 12 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 13 50 1 1 1							      |	  Spacker 8 50 1 1 1
-							      |
-  Tinman 99 100 5 1 7							      |	  Tinman 98 100 5 1 7
-  Spacker 9 50 1 1 1							      |	  Spacker 4 50 1 1 1
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 37 50 1 1 1							      |	  Spacker 37 50 1 1 1
 							      |
   Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
-  Spacker 5 50 1 1 1							      |	  Spacker -1 50 1 1 1
-							      |	reset Tinman Success
-  Tinman 100 100 5 1 7							      |	reset Spacker Success
-  Spacker 0 50 1 1 1							      |	battle Joshua NORAD
-reset Tinman Success							      |
-reset Spacker Success							      |	  Joshua 1000 1000 10 80 10
-battle Joshua NORAD							      |	  NORAD 750 750 30 40 1
+  Spacker 33 50 1 1 1							      |	  Spacker 33 50 1 1 1
 							      |
-  Joshua 1000 1000 10 80 10							      |	  Joshua 960 1000 10 80 10
-  NORAD 750 750 30 40 1							      |	  NORAD 745 750 30 40 1
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 29 50 1 1 1							      |	  Spacker 29 50 1 1 1
 							      |
-  Joshua 990 1000 10 80 10							      |	  Joshua 951 1000 10 80 10
-  NORAD 745 750 30 40 1							      |	  NORAD 743 750 30 40 1
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 25 50 1 1 1							      |	  Spacker 25 50 1 1 1
 							      |
-  Joshua 981 1000 10 80 10							      |	  Joshua 942 1000 10 80 10
-  NORAD 747 750 30 40 1							      |	  NORAD 744 750 30 40 1
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 21 50 1 1 1							      |	  Spacker 21 50 1 1 1
 							      |
-  Joshua 972 1000 10 80 10							      |	  Joshua 933 1000 10 80 10
-  NORAD 750 750 30 40 1							      |	  NORAD 747 750 30 40 1
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 17 50 1 1 1							      |	  Spacker 17 50 1 1 1
 							      |
-  Joshua 963 1000 10 80 10							      |	  Joshua 924 1000 10 80 10
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 13 50 1 1 1							      |	  Spacker 13 50 1 1 1
+							      |
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 9 50 1 1 1							      |	  Spacker 9 50 1 1 1
+							      |
+  Tinman 99 100 5 1 7							      |	  Tinman 99 100 5 1 7
+  Spacker 5 50 1 1 1							      |	  Spacker 5 50 1 1 1
+							      |
+  Tinman 100 100 5 1 7							      |	  Tinman 100 100 5 1 7
+  Spacker 0 50 1 1 1							      |	  Spacker 0 50 1 1 1
+reset Tinman Success							      |	reset Tinman Success
+reset Spacker Success							      |	reset Spacker Success
+battle Joshua NORAD							      |	battle Joshua NORAD
+							      |
+  Joshua 1000 1000 10 80 10							      |	  Joshua 1000 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 990 1000 10 80 10							      |	  Joshua 990 1000 10 80 10
+  NORAD 745 750 30 40 1							      |	  NORAD 745 750 30 40 1
+							      |
+  Joshua 981 1000 10 80 10							      |	  Joshua 981 1000 10 80 10
+  NORAD 747 750 30 40 1							      |	  NORAD 747 750 30 40 1
+							      |
+  Joshua 972 1000 10 80 10							      |	  Joshua 972 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 963 1000 10 80 10							      |	  Joshua 963 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 954 1000 10 80 10							      |	  Joshua 954 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 945 1000 10 80 10							      |	  Joshua 945 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 936 1000 10 80 10							      |	  Joshua 936 1000 10 80 10
+  NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
+							      |
+  Joshua 927 1000 10 80 10							      |	  Joshua 927 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 954 1000 10 80 10							      |	  Joshua 915 1000 10 80 10
+  Joshua 918 1000 10 80 10							      |	  Joshua 918 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 945 1000 10 80 10							      |	  Joshua 906 1000 10 80 10
+  Joshua 909 1000 10 80 10							      |	  Joshua 909 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 936 1000 10 80 10							      |	  Joshua 897 1000 10 80 10
+  Joshua 900 1000 10 80 10							      |	  Joshua 900 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 927 1000 10 80 10							      |	  Joshua 888 1000 10 80 10
+  Joshua 891 1000 10 80 10							      |	  Joshua 891 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 918 1000 10 80 10							      |	  Joshua 879 1000 10 80 10
+  Joshua 882 1000 10 80 10							      |	  Joshua 882 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 909 1000 10 80 10							      |	  Joshua 870 1000 10 80 10
+  Joshua 873 1000 10 80 10							      |	  Joshua 873 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 900 1000 10 80 10							      |	  Joshua 861 1000 10 80 10
+  Joshua 864 1000 10 80 10							      |	  Joshua 864 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 891 1000 10 80 10							      |	  Joshua 852 1000 10 80 10
+  Joshua 855 1000 10 80 10							      |	  Joshua 855 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 882 1000 10 80 10							      |	  Joshua 843 1000 10 80 10
+  Joshua 846 1000 10 80 10							      |	  Joshua 846 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 873 1000 10 80 10							      |	  Joshua 834 1000 10 80 10
+  Joshua 837 1000 10 80 10							      |	  Joshua 837 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 864 1000 10 80 10							      |	  Joshua 825 1000 10 80 10
+  Joshua 828 1000 10 80 10							      |	  Joshua 828 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 855 1000 10 80 10							      |	  Joshua 816 1000 10 80 10
+  Joshua 819 1000 10 80 10							      |	  Joshua 819 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 846 1000 10 80 10							      |	  Joshua 807 1000 10 80 10
+  Joshua 810 1000 10 80 10							      |	  Joshua 810 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 837 1000 10 80 10							      |	  Joshua 798 1000 10 80 10
+  Joshua 801 1000 10 80 10							      |	  Joshua 801 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 828 1000 10 80 10							      |	  Joshua 789 1000 10 80 10
+  Joshua 792 1000 10 80 10							      |	  Joshua 792 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 819 1000 10 80 10							      |	  Joshua 780 1000 10 80 10
+  Joshua 783 1000 10 80 10							      |	  Joshua 783 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 810 1000 10 80 10							      |	  Joshua 771 1000 10 80 10
+  Joshua 774 1000 10 80 10							      |	  Joshua 774 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 801 1000 10 80 10							      |	  Joshua 762 1000 10 80 10
+  Joshua 765 1000 10 80 10							      |	  Joshua 765 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 792 1000 10 80 10							      |	  Joshua 753 1000 10 80 10
+  Joshua 756 1000 10 80 10							      |	  Joshua 756 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 783 1000 10 80 10							      |	  Joshua 744 1000 10 80 10
+  Joshua 747 1000 10 80 10							      |	  Joshua 747 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 774 1000 10 80 10							      |	  Joshua 735 1000 10 80 10
+  Joshua 738 1000 10 80 10							      |	  Joshua 738 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 765 1000 10 80 10							      |	  Joshua 726 1000 10 80 10
+  Joshua 729 1000 10 80 10							      |	  Joshua 729 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 756 1000 10 80 10							      |	  Joshua 717 1000 10 80 10
+  Joshua 720 1000 10 80 10							      |	  Joshua 720 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 747 1000 10 80 10							      |	  Joshua 708 1000 10 80 10
+  Joshua 711 1000 10 80 10							      |	  Joshua 711 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 738 1000 10 80 10							      |	  Joshua 699 1000 10 80 10
+  Joshua 702 1000 10 80 10							      |	  Joshua 702 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 729 1000 10 80 10							      |	  Joshua 690 1000 10 80 10
+  Joshua 693 1000 10 80 10							      |	  Joshua 693 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 720 1000 10 80 10							      |	  Joshua 681 1000 10 80 10
+  Joshua 684 1000 10 80 10							      |	  Joshua 684 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 711 1000 10 80 10							      |	  Joshua 672 1000 10 80 10
+  Joshua 675 1000 10 80 10							      |	  Joshua 675 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 702 1000 10 80 10							      |	  Joshua 663 1000 10 80 10
+  Joshua 666 1000 10 80 10							      |	  Joshua 666 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 693 1000 10 80 10							      |	  Joshua 654 1000 10 80 10
+  Joshua 657 1000 10 80 10							      |	  Joshua 657 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 684 1000 10 80 10							      |	  Joshua 645 1000 10 80 10
+  Joshua 648 1000 10 80 10							      |	  Joshua 648 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 675 1000 10 80 10							      |	  Joshua 636 1000 10 80 10
+  Joshua 639 1000 10 80 10							      |	  Joshua 639 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 666 1000 10 80 10							      |	  Joshua 627 1000 10 80 10
+  Joshua 630 1000 10 80 10							      |	  Joshua 630 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 657 1000 10 80 10							      |	  Joshua 618 1000 10 80 10
+  Joshua 621 1000 10 80 10							      |	  Joshua 621 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 648 1000 10 80 10							      |	  Joshua 609 1000 10 80 10
+  Joshua 612 1000 10 80 10							      |	  Joshua 612 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 639 1000 10 80 10							      |	  Joshua 600 1000 10 80 10
+  Joshua 603 1000 10 80 10							      |	  Joshua 603 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 630 1000 10 80 10							      |	  Joshua 591 1000 10 80 10
+  Joshua 594 1000 10 80 10							      |	  Joshua 594 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 621 1000 10 80 10							      |	  Joshua 582 1000 10 80 10
+  Joshua 585 1000 10 80 10							      |	  Joshua 585 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 612 1000 10 80 10							      |	  Joshua 573 1000 10 80 10
+  Joshua 576 1000 10 80 10							      |	  Joshua 576 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 603 1000 10 80 10							      |	  Joshua 564 1000 10 80 10
+  Joshua 567 1000 10 80 10							      |	  Joshua 567 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 594 1000 10 80 10							      |	  Joshua 555 1000 10 80 10
+  Joshua 558 1000 10 80 10							      |	  Joshua 558 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 585 1000 10 80 10							      |	  Joshua 546 1000 10 80 10
+  Joshua 549 1000 10 80 10							      |	  Joshua 549 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 576 1000 10 80 10							      |	  Joshua 537 1000 10 80 10
+  Joshua 540 1000 10 80 10							      |	  Joshua 540 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 567 1000 10 80 10							      |	  Joshua 528 1000 10 80 10
+  Joshua 531 1000 10 80 10							      |	  Joshua 531 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 558 1000 10 80 10							      |	  Joshua 519 1000 10 80 10
+  Joshua 522 1000 10 80 10							      |	  Joshua 522 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 549 1000 10 80 10							      |	  Joshua 510 1000 10 80 10
+  Joshua 513 1000 10 80 10							      |	  Joshua 513 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 540 1000 10 80 10							      |	  Joshua 501 1000 10 80 10
+  Joshua 504 1000 10 80 10							      |	  Joshua 504 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 531 1000 10 80 10							      |	  Joshua 492 1000 10 80 10
+  Joshua 495 1000 10 80 10							      |	  Joshua 495 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 522 1000 10 80 10							      |	  Joshua 483 1000 10 80 10
+  Joshua 486 1000 10 80 10							      |	  Joshua 486 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 513 1000 10 80 10							      |	  Joshua 474 1000 10 80 10
+  Joshua 477 1000 10 80 10							      |	  Joshua 477 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 504 1000 10 80 10							      |	  Joshua 465 1000 10 80 10
+  Joshua 468 1000 10 80 10							      |	  Joshua 468 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 495 1000 10 80 10							      |	  Joshua 456 1000 10 80 10
+  Joshua 459 1000 10 80 10							      |	  Joshua 459 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 486 1000 10 80 10							      |	  Joshua 447 1000 10 80 10
+  Joshua 450 1000 10 80 10							      |	  Joshua 450 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 477 1000 10 80 10							      |	  Joshua 438 1000 10 80 10
+  Joshua 441 1000 10 80 10							      |	  Joshua 441 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 468 1000 10 80 10							      |	  Joshua 429 1000 10 80 10
+  Joshua 432 1000 10 80 10							      |	  Joshua 432 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 459 1000 10 80 10							      |	  Joshua 420 1000 10 80 10
+  Joshua 423 1000 10 80 10							      |	  Joshua 423 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 450 1000 10 80 10							      |	  Joshua 411 1000 10 80 10
+  Joshua 414 1000 10 80 10							      |	  Joshua 414 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 441 1000 10 80 10							      |	  Joshua 402 1000 10 80 10
+  Joshua 405 1000 10 80 10							      |	  Joshua 405 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 432 1000 10 80 10							      |	  Joshua 393 1000 10 80 10
+  Joshua 396 1000 10 80 10							      |	  Joshua 396 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 423 1000 10 80 10							      |	  Joshua 384 1000 10 80 10
+  Joshua 387 1000 10 80 10							      |	  Joshua 387 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 414 1000 10 80 10							      |	  Joshua 375 1000 10 80 10
+  Joshua 378 1000 10 80 10							      |	  Joshua 378 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 405 1000 10 80 10							      |	  Joshua 366 1000 10 80 10
+  Joshua 369 1000 10 80 10							      |	  Joshua 369 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 396 1000 10 80 10							      |	  Joshua 357 1000 10 80 10
+  Joshua 360 1000 10 80 10							      |	  Joshua 360 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 387 1000 10 80 10							      |	  Joshua 348 1000 10 80 10
+  Joshua 351 1000 10 80 10							      |	  Joshua 351 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 378 1000 10 80 10							      |	  Joshua 339 1000 10 80 10
+  Joshua 342 1000 10 80 10							      |	  Joshua 342 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 369 1000 10 80 10							      |	  Joshua 330 1000 10 80 10
+  Joshua 333 1000 10 80 10							      |	  Joshua 333 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 360 1000 10 80 10							      |	  Joshua 321 1000 10 80 10
+  Joshua 324 1000 10 80 10							      |	  Joshua 324 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 351 1000 10 80 10							      |	  Joshua 312 1000 10 80 10
+  Joshua 315 1000 10 80 10							      |	  Joshua 315 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 342 1000 10 80 10							      |	  Joshua 303 1000 10 80 10
+  Joshua 306 1000 10 80 10							      |	  Joshua 306 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 333 1000 10 80 10							      |	  Joshua 294 1000 10 80 10
+  Joshua 297 1000 10 80 10							      |	  Joshua 297 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 324 1000 10 80 10							      |	  Joshua 285 1000 10 80 10
+  Joshua 288 1000 10 80 10							      |	  Joshua 288 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 315 1000 10 80 10							      |	  Joshua 276 1000 10 80 10
+  Joshua 279 1000 10 80 10							      |	  Joshua 279 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 306 1000 10 80 10							      |	  Joshua 267 1000 10 80 10
+  Joshua 270 1000 10 80 10							      |	  Joshua 270 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 297 1000 10 80 10							      |	  Joshua 258 1000 10 80 10
+  Joshua 261 1000 10 80 10							      |	  Joshua 261 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 288 1000 10 80 10							      |	  Joshua 249 1000 10 80 10
+  Joshua 252 1000 10 80 10							      |	  Joshua 252 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 279 1000 10 80 10							      |	  Joshua 240 1000 10 80 10
+  Joshua 243 1000 10 80 10							      |	  Joshua 243 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 270 1000 10 80 10							      |	  Joshua 231 1000 10 80 10
+  Joshua 234 1000 10 80 10							      |	  Joshua 234 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 261 1000 10 80 10							      |	  Joshua 222 1000 10 80 10
+  Joshua 225 1000 10 80 10							      |	  Joshua 225 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 252 1000 10 80 10							      |	  Joshua 213 1000 10 80 10
+  Joshua 216 1000 10 80 10							      |	  Joshua 216 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 243 1000 10 80 10							      |	  Joshua 204 1000 10 80 10
+  Joshua 207 1000 10 80 10							      |	  Joshua 207 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 234 1000 10 80 10							      |	  Joshua 195 1000 10 80 10
+  Joshua 198 1000 10 80 10							      |	  Joshua 198 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 225 1000 10 80 10							      |	  Joshua 186 1000 10 80 10
+  Joshua 189 1000 10 80 10							      |	  Joshua 189 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 216 1000 10 80 10							      |	  Joshua 177 1000 10 80 10
+  Joshua 180 1000 10 80 10							      |	  Joshua 180 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 207 1000 10 80 10							      |	  Joshua 168 1000 10 80 10
+  Joshua 171 1000 10 80 10							      |	  Joshua 171 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 198 1000 10 80 10							      |	  Joshua 159 1000 10 80 10
+  Joshua 162 1000 10 80 10							      |	  Joshua 162 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 189 1000 10 80 10							      |	  Joshua 150 1000 10 80 10
+  Joshua 153 1000 10 80 10							      |	  Joshua 153 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 180 1000 10 80 10							      |	  Joshua 141 1000 10 80 10
+  Joshua 144 1000 10 80 10							      |	  Joshua 144 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 171 1000 10 80 10							      |	  Joshua 132 1000 10 80 10
+  Joshua 135 1000 10 80 10							      |	  Joshua 135 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 162 1000 10 80 10							      |	  Joshua 123 1000 10 80 10
+  Joshua 126 1000 10 80 10							      |	  Joshua 126 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 153 1000 10 80 10							      |	  Joshua 114 1000 10 80 10
+  Joshua 117 1000 10 80 10							      |	  Joshua 117 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 144 1000 10 80 10							      |	  Joshua 105 1000 10 80 10
+  Joshua 108 1000 10 80 10							      |	  Joshua 108 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 135 1000 10 80 10							      |	  Joshua 96 1000 10 80 10
+  Joshua 99 1000 10 80 10							      |	  Joshua 99 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 126 1000 10 80 10							      |	  Joshua 87 1000 10 80 10
+  Joshua 90 1000 10 80 10							      |	  Joshua 90 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 117 1000 10 80 10							      |	  Joshua 78 1000 10 80 10
+  Joshua 81 1000 10 80 10							      |	  Joshua 81 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 108 1000 10 80 10							      |	  Joshua 69 1000 10 80 10
+  Joshua 72 1000 10 80 10							      |	  Joshua 72 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 99 1000 10 80 10							      |	  Joshua 60 1000 10 80 10
+  Joshua 63 1000 10 80 10							      |	  Joshua 63 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 90 1000 10 80 10							      |	  Joshua 51 1000 10 80 10
+  Joshua 54 1000 10 80 10							      |	  Joshua 54 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 81 1000 10 80 10							      |	  Joshua 42 1000 10 80 10
+  Joshua 45 1000 10 80 10							      |	  Joshua 45 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 72 1000 10 80 10							      |	  Joshua 33 1000 10 80 10
+  Joshua 36 1000 10 80 10							      |	  Joshua 36 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 63 1000 10 80 10							      |	  Joshua 24 1000 10 80 10
+  Joshua 27 1000 10 80 10							      |	  Joshua 27 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 54 1000 10 80 10							      |	  Joshua 15 1000 10 80 10
+  Joshua 18 1000 10 80 10							      |	  Joshua 18 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 45 1000 10 80 10							      |	  Joshua 6 1000 10 80 10
+  Joshua 9 1000 10 80 10							      |	  Joshua 9 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
 							      |
-  Joshua 36 1000 10 80 10							      |	  Joshua -3 1000 10 80 10
+  Joshua 0 1000 10 80 10							      |	  Joshua 0 1000 10 80 10
   NORAD 750 750 30 40 1							      |	  NORAD 750 750 30 40 1
-							      |	reset Joshua Success
-  Joshua 27 1000 10 80 10							      |	reset NORAD Success
-  NORAD 750 750 30 40 1							      |	battle Honeydew HoneydewClone
+reset Joshua Success							      |	reset Joshua Success
+reset NORAD Success							      |	reset NORAD Success
+battle Honeydew HoneydewClone							      |	battle Honeydew HoneydewClone
+							      |
+  Honeydew 150 150 14 8 11							      |	  Honeydew 150 150 14 8 11
+  HoneydewClone 150 150 14 8 11							      |	  HoneydewClone 150 150 14 8 11
+							      |
+  Honeydew 124 150 14 8 11							      |	  Honeydew 124 150 14 8 11
+  HoneydewClone 126 150 14 8 11							      |	  HoneydewClone 126 150 14 8 11
+							      |
+  Honeydew 110 150 14 8 11							      |	  Honeydew 110 150 14 8 11
+  HoneydewClone 112 150 14 8 11							      |	  HoneydewClone 112 150 14 8 11
+							      |
+  Honeydew 99 150 14 8 11							      |	  Honeydew 99 150 14 8 11
+  HoneydewClone 101 150 14 8 11							      |	  HoneydewClone 101 150 14 8 11
+							      |
+  Honeydew 89 150 14 8 11							      |	  Honeydew 89 150 14 8 11
+  HoneydewClone 91 150 14 8 11							      |	  HoneydewClone 91 150 14 8 11
+							      |
+  Honeydew 79 150 14 8 11							      |	  Honeydew 79 150 14 8 11
+  HoneydewClone 81 150 14 8 11							      |	  HoneydewClone 81 150 14 8 11
+							      |
+  Honeydew 69 150 14 8 11							      |	  Honeydew 69 150 14 8 11
+  HoneydewClone 71 150 14 8 11							      |	  HoneydewClone 71 150 14 8 11
+							      |
+  Honeydew 59 150 14 8 11							      |	  Honeydew 59 150 14 8 11
+  HoneydewClone 61 150 14 8 11							      |	  HoneydewClone 61 150 14 8 11
+							      |
+  Honeydew 49 150 14 8 11							      |	  Honeydew 49 150 14 8 11
+  HoneydewClone 51 150 14 8 11							      |	  HoneydewClone 51 150 14 8 11
+							      |
+  Honeydew 39 150 14 8 11							      |	  Honeydew 39 150 14 8 11
+  HoneydewClone 41 150 14 8 11							      |	  HoneydewClone 41 150 14 8 11
+							      |
+  Honeydew 29 150 14 8 11							      |	  Honeydew 29 150 14 8 11
+  HoneydewClone 31 150 14 8 11							      |	  HoneydewClone 31 150 14 8 11
+							      |
+  Honeydew 19 150 14 8 11							      |	  Honeydew 19 150 14 8 11
+  HoneydewClone 21 150 14 8 11							      |	  HoneydewClone 21 150 14 8 11
 							      |
-  Joshua 18 1000 10 80 10							      |	  Honeydew 150 150 14 8 11
-  NORAD 750 750 30 40 1							      |	  HoneydewClone 150 150 14 8 11
+  Honeydew 9 150 14 8 11							      |	  Honeydew 9 150 14 8 11
+  HoneydewClone 11 150 14 8 11							      |	  HoneydewClone 11 150 14 8 11
 							      |
-  Joshua 9 1000 10 80 10							      |	  Honeydew 124 150 14 8 11
-  NORAD 750 750 30 40 1							      |	  HoneydewClone 126 150 14 8 11
+  Honeydew 11 150 14 8 11							      |	  Honeydew 11 150 14 8 11
+  HoneydewClone -1 150 14 8 11							      |	  HoneydewClone -1 150 14 8 11
+reset Honeydew Success							      |	reset Honeydew Success
+reset HoneydewClone Success							      |	reset HoneydewClone Success
+battle Israphel IsraphelClone							      |	battle Israphel IsraphelClone
 							      |
-  Joshua 0 1000 10 80 10							      |	  Honeydew 104 150 14 8 11
-  NORAD 750 750 30 40 1							      |	  HoneydewClone 106 150 14 8 11
-reset Joshua Success							      |
-reset NORAD Success							      |	  Honeydew 88 150 14 8 11
-battle Honeydew HoneydewClone							      |	  HoneydewClone 90 150 14 8 11
+  Israphel 90 90 12 16 1							      |	  Israphel 90 90 12 16 1
+  IsraphelClone 90 90 12 16 1							      |	  IsraphelClone 90 90 12 16 1
 							      |
-  Honeydew 150 150 14 8 11							      |	  Honeydew 74 150 14 8 11
-  HoneydewClone 150 150 14 8 11							      |	  HoneydewClone 76 150 14 8 11
+  Israphel 77 90 12 17 1							      |	  Israphel 77 90 12 17 1
+  IsraphelClone 79 90 12 17 1							      |	  IsraphelClone 79 90 12 17 1
 							      |
-  Honeydew 124 150 14 8 11							      |	  Honeydew 62 150 14 8 11
-  HoneydewClone 126 150 14 8 11							      |	  HoneydewClone 64 150 14 8 11
+  Israphel 65 90 12 18 1							      |	  Israphel 65 90 12 18 1
+  IsraphelClone 67 90 12 18 1							      |	  IsraphelClone 67 90 12 18 1
 							      |
-  Honeydew 110 150 14 8 11							      |	  Honeydew 51 150 14 8 11
-  HoneydewClone 112 150 14 8 11							      |	  HoneydewClone 53 150 14 8 11
+  Israphel 52 90 12 19 1							      |	  Israphel 52 90 12 19 1
+  IsraphelClone 54 90 12 19 1							      |	  IsraphelClone 54 90 12 19 1
 							      |
-  Honeydew 99 150 14 8 11							      |	  Honeydew 40 150 14 8 11
-  HoneydewClone 101 150 14 8 11							      |	  HoneydewClone 42 150 14 8 11
+  Israphel 39 90 12 20 1							      |	  Israphel 39 90 12 20 1
+  IsraphelClone 40 90 12 20 1							      |	  IsraphelClone 40 90 12 20 1
 							      |
-  Honeydew 89 150 14 8 11							      |	  Honeydew 30 150 14 8 11
-  HoneydewClone 91 150 14 8 11							      |	  HoneydewClone 32 150 14 8 11
+  Israphel 25 90 12 21 1							      |	  Israphel 25 90 12 21 1
+  IsraphelClone 26 90 12 21 1							      |	  IsraphelClone 26 90 12 21 1
 							      |
-  Honeydew 79 150 14 8 11							      |	  Honeydew 20 150 14 8 11
-  HoneydewClone 81 150 14 8 11							      |	  HoneydewClone 22 150 14 8 11
+  Israphel 10 90 12 22 1							      |	  Israphel 10 90 12 22 1
+  IsraphelClone 11 90 12 22 1							      |	  IsraphelClone 11 90 12 22 1
 							      |
-  Honeydew 69 150 14 8 11							      |	  Honeydew 10 150 14 8 11
-  HoneydewClone 71 150 14 8 11							      |	  HoneydewClone 12 150 14 8 11
+  Israphel 12 90 12 23 1							      |	  Israphel 12 90 12 23 1
+  IsraphelClone -7 90 12 22 1							      |	  IsraphelClone -7 90 12 22 1
+reset Israphel Success							      |	reset Israphel Success
+reset IsrahelClone NULL							      |	reset IsrahelClone NULL
+battle Father_Braeburn Father_BraeburnClone							      |	battle Father_Braeburn Father_BraeburnClone
 							      |
-  Honeydew 59 150 14 8 11							      |	  Honeydew 12 150 14 8 11
-  HoneydewClone 61 150 14 8 11							      |	  HoneydewClone 0 150 14 8 11
-							      |	reset Honeydew Success
-  Honeydew 49 150 14 8 11							      |	reset HoneydewClone Success
-  HoneydewClone 51 150 14 8 11							      |	battle Israphel IsraphelClone
+  Father_Braeburn 90 90 4 12 20							      |	  Father_Braeburn 90 90 4 12 20
+  Father_BraeburnClone 90 90 4 12 20							      |	  Father_BraeburnClone 90 90 4 12 20
 							      |
-  Honeydew 39 150 14 8 11							      |	  Israphel 90 90 12 16 1
-  HoneydewClone 41 150 14 8 11							      |	  IsraphelClone 90 90 12 16 1
+  Father_Braeburn 73 90 4 12 20							      |	  Father_Braeburn 73 90 4 12 20
+  Father_BraeburnClone 80 90 4 12 20							      |	  Father_BraeburnClone 80 90 4 12 20
 							      |
-  Honeydew 29 150 14 8 11							      |	  Israphel 77 90 12 17 1
-  HoneydewClone 31 150 14 8 11							      |	  IsraphelClone 79 90 12 17 1
+  Father_Braeburn 63 90 4 12 20							      |	  Father_Braeburn 63 90 4 12 20
+  Father_BraeburnClone 70 90 4 12 20							      |	  Father_BraeburnClone 70 90 4 12 20
 							      |
-  Honeydew 19 150 14 8 11							      |	  Israphel 65 90 12 18 1
-  HoneydewClone 21 150 14 8 11							      |	  IsraphelClone 67 90 12 18 1
+  Father_Braeburn 53 90 4 12 20							      |	  Father_Braeburn 53 90 4 12 20
+  Father_BraeburnClone 60 90 4 12 20							      |	  Father_BraeburnClone 60 90 4 12 20
 							      |
-  Honeydew 9 150 14 8 11							      |	  Israphel 52 90 12 19 1
-  HoneydewClone 11 150 14 8 11							      |	  IsraphelClone 54 90 12 19 1
+  Father_Braeburn 43 90 4 12 20							      |	  Father_Braeburn 43 90 4 12 20
+  Father_BraeburnClone 50 90 4 12 20							      |	  Father_BraeburnClone 50 90 4 12 20
 							      |
-  Honeydew 11 150 14 8 11							      |	  Israphel 39 90 12 20 1
-  HoneydewClone -1 150 14 8 11							      |	  IsraphelClone 40 90 12 20 1
-reset Honeydew Success							      |
-reset HoneydewClone Success							      |	  Israphel 25 90 12 21 1
-battle Israphel IsraphelClone							      |	  IsraphelClone 26 90 12 21 1
+  Father_Braeburn 27 90 4 12 20							      |	  Father_Braeburn 27 90 4 12 20
+  Father_BraeburnClone 34 90 4 12 20							      |	  Father_BraeburnClone 34 90 4 12 20
 							      |
-  Israphel 90 90 12 16 1							      |	  Israphel 10 90 12 22 1
-  IsraphelClone 90 90 12 16 1							      |	  IsraphelClone 11 90 12 22 1
+  Father_Braeburn 11 90 4 12 20							      |	  Father_Braeburn 11 90 4 12 20
+  Father_BraeburnClone 18 90 4 12 20							      |	  Father_BraeburnClone 18 90 4 12 20
 							      |
-  Israphel 77 90 12 17 1							      |	  Israphel 12 90 12 23 1
-  IsraphelClone 79 90 12 17 1							      |	  IsraphelClone -7 90 12 22 1
-							      |	reset Israphel Success
-  Israphel 65 90 12 18 1							      |	reset IsrahelClone NULL
-  IsraphelClone 67 90 12 18 1							      |	battle Father_Braeburn Father_BraeburnClone
+  Father_Braeburn -5 90 4 12 20							      |	  Father_Braeburn -5 90 4 12 20
+  Father_BraeburnClone 2 90 4 12 20							      |	  Father_BraeburnClone 2 90 4 12 20
+reset Father_Braeburn Success							      |	reset Father_Braeburn Success
+reset Father_BraeburnClone Success							      |	reset Father_BraeburnClone Success
+battle Honeydew Israphel							      |	battle Honeydew Israphel
 							      |
-  Israphel 52 90 12 19 1							      |	  Father_Braeburn 90 90 4 12 20
-  IsraphelClone 54 90 12 19 1							      |	  Father_BraeburnClone 90 90 4 12 20
+  Honeydew 150 150 14 8 11							      |	  Honeydew 150 150 14 8 11
+  Israphel 90 90 12 16 1							      |	  Israphel 90 90 12 16 1
 							      |
-  Israphel 39 90 12 20 1							      |	  Father_Braeburn 73 90 4 12 20
-  IsraphelClone 40 90 12 20 1							      |	  Father_BraeburnClone 80 90 4 12 20
+  Honeydew 135 150 14 8 11							      |	  Honeydew 135 150 14 8 11
+  Israphel 68 90 12 17 1							      |	  Israphel 68 90 12 17 1
 							      |
-  Israphel 25 90 12 21 1							      |	  Father_Braeburn 63 90 4 12 20
-  IsraphelClone 26 90 12 21 1							      |	  Father_BraeburnClone 70 90 4 12 20
+  Honeydew 121 150 14 8 11							      |	  Honeydew 121 150 14 8 11
+  Israphel 56 90 12 18 1							      |	  Israphel 56 90 12 18 1
 							      |
-  Israphel 10 90 12 22 1							      |	  Father_Braeburn 53 90 4 12 20
-  IsraphelClone 11 90 12 22 1							      |	  Father_BraeburnClone 60 90 4 12 20
+  Honeydew 106 150 14 8 11							      |	  Honeydew 106 150 14 8 11
+  Israphel 47 90 12 19 1							      |	  Israphel 47 90 12 19 1
 							      |
-  Israphel 12 90 12 23 1							      |	  Father_Braeburn 43 90 4 12 20
-  IsraphelClone -7 90 12 22 1							      |	  Father_BraeburnClone 50 90 4 12 20
-reset Israphel Success							      |
-reset IsrahelClone NULL							      |	  Father_Braeburn 27 90 4 12 20
-battle Father_Braeburn Father_BraeburnClone							      |	  Father_BraeburnClone 34 90 4 12 20
+  Honeydew 90 150 14 8 11							      |	  Honeydew 90 150 14 8 11
+  Israphel 39 90 12 20 1							      |	  Israphel 39 90 12 20 1
 							      |
-  Father_Braeburn 90 90 4 12 20							      |	  Father_Braeburn 11 90 4 12 20
-  Father_BraeburnClone 90 90 4 12 20							      |	  Father_BraeburnClone 18 90 4 12 20
+  Honeydew 73 150 14 8 11							      |	  Honeydew 73 150 14 8 11
+  Israphel 32 90 12 21 1							      |	  Israphel 32 90 12 21 1
 							      |
-  Father_Braeburn 73 90 4 12 20							      |	  Father_Braeburn -5 90 4 12 20
-  Father_BraeburnClone 80 90 4 12 20							      |	  Father_BraeburnClone 2 90 4 12 20
-							      |	reset Father_Braeburn Success
-  Father_Braeburn 63 90 4 12 20							      |	reset Father_BraeburnClone Success
-  Father_BraeburnClone 70 90 4 12 20							      |	battle Honeydew Israphel
+  Honeydew 55 150 14 8 11							      |	  Honeydew 55 150 14 8 11
+  Israphel 25 90 12 22 1							      |	  Israphel 25 90 12 22 1
 							      |
-  Father_Braeburn 53 90 4 12 20							      |	  Honeydew 150 150 14 8 11
-  Father_BraeburnClone 60 90 4 12 20							      |	  Israphel 90 90 12 16 1
+  Honeydew 36 150 14 8 11							      |	  Honeydew 36 150 14 8 11
+  Israphel 18 90 12 23 1							      |	  Israphel 18 90 12 23 1
 							      |
-  Father_Braeburn 43 90 4 12 20							      |	  Honeydew 135 150 14 8 11
-  Father_BraeburnClone 50 90 4 12 20							      |	  Israphel 68 90 12 17 1
+  Honeydew 16 150 14 8 11							      |	  Honeydew 16 150 14 8 11
+  Israphel 11 90 12 24 1							      |	  Israphel 11 90 12 24 1
 							      |
-  Father_Braeburn 27 90 4 12 20							      |	  Honeydew 121 150 14 8 11
-  Father_BraeburnClone 34 90 4 12 20							      |	  Israphel 50 90 12 18 1
+  Honeydew -5 150 14 8 11							      |	  Honeydew -5 150 14 8 11
+  Israphel 5 90 12 25 1							      |	  Israphel 5 90 12 25 1
+reset Honeydew Success							      |	reset Honeydew Success
+reset Israphel Success							      |	reset Israphel Success
+battle Israphel Father_Braeburn							      |	battle Israphel Father_Braeburn
 							      |
-  Father_Braeburn 11 90 4 12 20							      |	  Honeydew 106 150 14 8 11
-  Father_BraeburnClone 18 90 4 12 20							      |	  Israphel 36 90 12 19 1
+  Israphel 90 90 12 16 1							      |	  Israphel 90 90 12 16 1
+  Father_Braeburn 90 90 4 12 20							      |	  Father_Braeburn 90 90 4 12 20
 							      |
-  Father_Braeburn -5 90 4 12 20							      |	  Honeydew 90 150 14 8 11
-  Father_BraeburnClone 2 90 4 12 20							      |	  Israphel 24 90 12 20 1
-reset Father_Braeburn Success							      |
-reset Father_BraeburnClone Success							      |	  Honeydew 73 150 14 8 11
-battle Honeydew Israphel							      |	  Israphel 15 90 12 21 1
+  Israphel 74 90 12 17 1							      |	  Israphel 74 90 12 17 1
+  Father_Braeburn 83 90 4 12 20							      |	  Father_Braeburn 83 90 4 12 20
 							      |
-  Honeydew 150 150 14 8 11							      |	  Honeydew 55 150 14 8 11
-  Israphel 90 90 12 16 1							      |	  Israphel 7 90 12 22 1
+  Israphel 60 90 12 18 1							      |	  Israphel 60 90 12 18 1
+  Father_Braeburn 75 90 4 12 20							      |	  Father_Braeburn 75 90 4 12 20
 							      |
-  Honeydew 135 150 14 8 11							      |	  Honeydew 57 150 14 8 11
-  Israphel 68 90 12 17 1							      |	  Israphel -3 90 12 22 1
-							      |	reset Honeydew Success
-  Honeydew 121 150 14 8 11							      |	reset Israphel Success
-  Israphel 56 90 12 18 1							      |	battle Israphel Father_Braeburn
+  Israphel 46 90 12 19 1							      |	  Israphel 46 90 12 19 1
+  Father_Braeburn 66 90 4 12 20							      |	  Father_Braeburn 66 90 4 12 20
 							      |
-  Honeydew 106 150 14 8 11							      |	  Israphel 90 90 12 16 1
-  Israphel 47 90 12 19 1							      |	  Father_Braeburn 90 90 4 12 20
+  Israphel 33 90 12 20 1							      |	  Israphel 33 90 12 20 1
+  Father_Braeburn 56 90 4 12 20							      |	  Father_Braeburn 56 90 4 12 20
 							      |
-  Honeydew 90 150 14 8 11							      |	  Israphel 74 90 12 17 1
-  Israphel 39 90 12 20 1							      |	  Father_Braeburn 83 90 4 12 20
+  Israphel 20 90 12 21 1							      |	  Israphel 20 90 12 21 1
+  Father_Braeburn 39 90 4 12 20							      |	  Father_Braeburn 39 90 4 12 20
 							      |
-  Honeydew 73 150 14 8 11							      |	  Israphel 60 90 12 18 1
-  Israphel 32 90 12 21 1							      |	  Father_Braeburn 75 90 4 12 20
+  Israphel 7 90 12 22 1							      |	  Israphel 7 90 12 22 1
+  Father_Braeburn 21 90 4 12 20							      |	  Father_Braeburn 21 90 4 12 20
 							      |
-  Honeydew 55 150 14 8 11							      |	  Israphel 46 90 12 19 1
-  Israphel 25 90 12 22 1							      |	  Father_Braeburn 66 90 4 12 20
+  Israphel -6 90 12 23 1							      |	  Israphel -6 90 12 23 1
+  Father_Braeburn 2 90 4 12 20							      |	  Father_Braeburn 2 90 4 12 20
+reset Israphel Success							      |	reset Israphel Success
+reset Father_Braeburn Success							      |	reset Father_Braeburn Success
+battle Honeydew Father_Braeburn							      |	battle Honeydew Father_Braeburn
 							      |
-  Honeydew 36 150 14 8 11							      |	  Israphel 33 90 12 20 1
-  Israphel 18 90 12 23 1							      |	  Father_Braeburn 56 90 4 12 20
+  Honeydew 150 150 14 8 11							      |	  Honeydew 150 150 14 8 11
+  Father_Braeburn 90 90 4 12 20							      |	  Father_Braeburn 90 90 4 12 20
 							      |
-  Honeydew 16 150 14 8 11							      |	  Israphel 20 90 12 21 1
-  Israphel 11 90 12 24 1							      |	  Father_Braeburn 39 90 4 12 20
+  Honeydew 132 150 14 8 11							      |	  Honeydew 132 150 14 8 11
+  Father_Braeburn 72 90 4 12 20							      |	  Father_Braeburn 72 90 4 12 20
 							      |
-  Honeydew -5 150 14 8 11							      |	  Israphel 7 90 12 22 1
-  Israphel 5 90 12 25 1							      |	  Father_Braeburn 21 90 4 12 20
-reset Honeydew Success							      |
-reset Israphel Success							      |	  Israphel -6 90 12 23 1
-battle Israphel Father_Braeburn							      |	  Father_Braeburn 2 90 4 12 20
-							      |	reset Israphel Success
-  Israphel 90 90 12 16 1							      |	reset Father_Braeburn Success
-  Father_Braeburn 90 90 4 12 20							      |	battle Honeydew Father_Braeburn
+  Honeydew 116 150 14 8 11							      |	  Honeydew 116 150 14 8 11
+  Father_Braeburn 64 90 4 12 20							      |	  Father_Braeburn 64 90 4 12 20
 							      |
-  Israphel 74 90 12 17 1							      |	  Honeydew 150 150 14 8 11
-  Father_Braeburn 83 90 4 12 20							      |	  Father_Braeburn 90 90 4 12 20
+  Honeydew 100 150 14 8 11							      |	  Honeydew 100 150 14 8 11
+  Father_Braeburn 59 90 4 12 20							      |	  Father_Braeburn 59 90 4 12 20
 							      |
-  Israphel 60 90 12 18 1							      |	  Honeydew 132 150 14 8 11
-  Father_Braeburn 75 90 4 12 20							      |	  Father_Braeburn 72 90 4 12 20
+  Honeydew 84 150 14 8 11							      |	  Honeydew 84 150 14 8 11
+  Father_Braeburn 55 90 4 12 20							      |	  Father_Braeburn 55 90 4 12 20
 							      |
-  Israphel 46 90 12 19 1							      |	  Honeydew 116 150 14 8 11
-  Father_Braeburn 66 90 4 12 20							      |	  Father_Braeburn 58 90 4 12 20
+  Honeydew 68 150 14 8 11							      |	  Honeydew 68 150 14 8 11
+  Father_Braeburn 45 90 4 12 20							      |	  Father_Braeburn 45 90 4 12 20
 							      |
-  Israphel 33 90 12 20 1							      |	  Honeydew 100 150 14 8 11
-  Father_Braeburn 56 90 4 12 20							      |	  Father_Braeburn 48 90 4 12 20
+  Honeydew 52 150 14 8 11							      |	  Honeydew 52 150 14 8 11
+  Father_Braeburn 35 90 4 12 20							      |	  Father_Braeburn 35 90 4 12 20
 							      |
-  Israphel 20 90 12 21 1							      |	  Honeydew 84 150 14 8 11
-  Father_Braeburn 39 90 4 12 20							      |	  Father_Braeburn 40 90 4 12 20
+  Honeydew 36 150 14 8 11							      |	  Honeydew 36 150 14 8 11
+  Father_Braeburn 25 90 4 12 20							      |	  Father_Braeburn 25 90 4 12 20
 							      |
-  Israphel 7 90 12 22 1							      |	  Honeydew 68 150 14 8 11
-  Father_Braeburn 21 90 4 12 20							      |	  Father_Braeburn 28 90 4 12 20
+  Honeydew 20 150 14 8 11							      |	  Honeydew 20 150 14 8 11
+  Father_Braeburn 21 90 4 12 20							      |	  Father_Braeburn 21 90 4 12 20
 							      |
-  Israphel -6 90 12 23 1							      |	  Honeydew 52 150 14 8 11
-  Father_Braeburn 2 90 4 12 20							      |	  Father_Braeburn 17 90 4 12 20
-reset Israphel Success							      |
-reset Father_Braeburn Success							      |	  Honeydew 36 150 14 8 11
-battle Honeydew Father_Braeburn							      |	  Father_Braeburn 6 90 4 12 20
+  Honeydew 4 150 14 8 11							      |	  Honeydew 4 150 14 8 11
+  Father_Braeburn 11 90 4 12 20							      |	  Father_Braeburn 11 90 4 12 20
 							      |
-  Honeydew 150 150 14 8 11							      |	  Honeydew 38 150 14 8 11
-  Father_Braeburn 90 90 4 12 20							      |	  Father_Braeburn -5 90 4 12 20
-							      |	reset Honeydew Success
-  Honeydew 132 150 14 8 11							      |	reset Father_Braeburn Success
-  Father_Braeburn 72 90 4 12 20							      |	removeFighter Fumblemore True
-							      |	removeFighter Creeper True
-  Honeydew 116 150 14 8 11							      |	removeFighter Cow True
-  Father_Braeburn 64 90 4 12 20							      |	removeFighter Sheep True
-							      |	removeFighter Tinman True
-  Honeydew 100 150 14 8 11							      |	removeFighter Spacker True
-  Father_Braeburn 59 90 4 12 20							      |	removeFighter Joshua True
-							      |	removeFighter NORAD True
-  Honeydew 84 150 14 8 11							      |	removeFighter Honeydew True
-  Father_Braeburn 55 90 4 12 20							      |	removeFighter HoneydewClone True
-							      |	removeFighter Israphel True
-  Honeydew 68 150 14 8 11							      |	removeFighter IsraphelClone True
-  Father_Braeburn 45 90 4 12 20							      |	removeFighter Father_Braeburn True
-							      |	removeFighter Father_BraeburnClone True
-  Honeydew 52 150 14 8 11							      <
-  Father_Braeburn 35 90 4 12 20							      <
-							      <
-  Honeydew 36 150 14 8 11							      <
-  Father_Braeburn 25 90 4 12 20							      <
-							      <
-  Honeydew 20 150 14 8 11							      <
-  Father_Braeburn 21 90 4 12 20							      <
-							      <
-  Honeydew 4 150 14 8 11							      <
-  Father_Braeburn 11 90 4 12 20							      <
-							      <
-  Honeydew 6 150 14 8 11							      <
-  Father_Braeburn 0 90 4 12 20							      <
-reset Honeydew Success							      <
-reset Father_Braeburn Success							      <
-removeFighter Fumblemore True							      <
-removeFighter Creeper True							      <
-removeFighter Cow True							      <
-removeFighter Sheep True							      <
-removeFighter Tinman True							      <
-removeFighter Spacker True							      <
-removeFighter Joshua True							      <
-removeFighter NORAD True							      <
-removeFighter Honeydew True							      <
-removeFighter HoneydewClone True							      <
-removeFighter Israphel True							      <
-removeFighter IsraphelClone True							      <
-removeFighter Father_Braeburn True							      <
-removeFighter Father_BraeburnClone True							      <
+  Honeydew 6 150 14 8 11							      |	  Honeydew 6 150 14 8 11
+  Father_Braeburn 0 90 4 12 20							      |	  Father_Braeburn 0 90 4 12 20
+reset Honeydew Success							      |	reset Honeydew Success
+reset Father_Braeburn Success							      |	reset Father_Braeburn Success
+removeFighter Fumblemore True							      |	removeFighter Fumblemore True
+removeFighter Creeper True							      |	removeFighter Creeper True
+removeFighter Cow True							      |	removeFighter Cow True
+removeFighter Sheep True							      |	removeFighter Sheep True
+removeFighter Tinman True							      |	removeFighter Tinman True
+removeFighter Spacker True							      |	removeFighter Spacker True
+removeFighter Joshua True							      |	removeFighter Joshua True
+removeFighter NORAD True							      |	removeFighter NORAD True
+removeFighter Honeydew True							      |	removeFighter Honeydew True
+removeFighter HoneydewClone True							      |	removeFighter HoneydewClone True
+removeFighter Israphel True							      |	removeFighter Israphel True
+removeFighter IsraphelClone True							      |	removeFighter IsraphelClone True
+removeFighter Father_Braeburn True							      |	removeFighter Father_Braeburn True
+removeFighter Father_BraeburnClone True							      |	removeFighter Father_BraeburnClone True

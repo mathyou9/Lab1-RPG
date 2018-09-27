@@ -12,4 +12,8 @@ public:
   int getDamage();
   void reset();
   bool useAbility();
+private:
+  double bonus_damage_double;
+  double powerMult;
+  double const POWER = 4.0;
 };
