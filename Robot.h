@@ -12,8 +12,4 @@ public:
   int getDamage();
   void reset();
   bool useAbility();
-private:
-  int current_energy;
-  int energy;
-  int bonus_damage;
 };

@@ -7,15 +7,19 @@ using namespace std;
 class Fighter : public FighterInterface{
 public:
   Fighter(std::string myName,int myhp, int mystrength, int mySpeed, int mymagic){
-    cout << "In Fighter Constructor " << myName << " " << myhp << " " << mystrength << " " << mySpeed << " " << mymagic << endl;
     name = myName;
     speed = mySpeed;
+    originalSpeed = mySpeed;
     hp = myhp;
     maxHP = myhp;
     strength = mystrength;
     magic = mymagic;
+    mana = mymagic * 5;
+    maxMana = mymagic * 5;
+    current_energy = mymagic * 5;
+    maximum_energy = mymagic * 5;
   };
-  ~Fighter(){}
+  ~Fighter(){};
 
   string getName() const;
 
@@ -49,4 +53,9 @@ protected:
   int damage;
   int originalSpeed;
   int mana;
+  int energy;
+  int maxMana;
+  int bonus_damage;
+  int current_energy;
+  int maximum_energy;
 };

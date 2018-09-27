@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 using namespace std;
-//remember to do stuff with mana later!
+
 
 class Cleric : public Fighter {
 public:

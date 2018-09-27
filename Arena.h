@@ -1,3 +1,5 @@
+#ifndef ARENA_H_
+#define ARENA_H_
 #include "ArenaInterface.h"
 #include "FighterInterface.h"
 #include "Fighter.h"
@@ -6,6 +8,7 @@
 #include "Robot.h"
 #include <vector>
 #include <sstream>
+#include <string>
 #include <iostream>
 
 using namespace std;
@@ -25,3 +28,4 @@ public:
 private:
   vector<Fighter*> fighterVec;
 };
+#endif

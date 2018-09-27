@@ -3,7 +3,6 @@
 using namespace std;
 
 string Fighter::getName() const {
-  cout << "fighter constructor" << name << endl;
   return name;
 }
 int Fighter::getMaximumHP() const{
@@ -27,10 +26,23 @@ int Fighter::getMagic() const{
 }
 
 void Fighter::takeDamage(int damage){
-  damage = damage - (speed / 4);
+  double speed_double;
+  speed_double = speed/4;
+  damage = damage - speed_double;
+  if(damage < 1){
+    damage = 1;
+  }
   hp = hp - damage;
 }
 
 void Fighter::regenerate(){
-  hp = hp + (strength / 6);
+  int regen;
+  regen = strength / 6;
+  if (regen < 1){
+    regen = 1;
+  }
+  hp = hp + regen;
+  if(hp > maxHP){
+    hp = maxHP;
+  }
 }
