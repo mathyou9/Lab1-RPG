@@ -5,8 +5,8 @@
 using namespace std;
 
 int Cleric::getDamage(){
-  damage = magic;
-  return damage;
+  damage2 = magic;
+  return damage2;
 }
 void Cleric::reset(){
   hp = maxHP;

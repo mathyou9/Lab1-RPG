@@ -18,6 +18,7 @@ public:
     maxMana = mymagic * 5;
     current_energy = mymagic * 5;
     maximum_energy = mymagic * 5;
+    damage2 = 0;
   };
   ~Fighter(){};
 
@@ -50,7 +51,7 @@ protected:
   int maxHP;
   int strength;
   int magic;
-  int damage;
+  int damage2;
   int originalSpeed;
   int mana;
   int energy;

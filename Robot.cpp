@@ -4,9 +4,9 @@
 using namespace std;
 
 int Robot::getDamage(){
-  damage = strength + bonus_damage;
+  damage2 = strength + bonus_damage;
   bonus_damage = 0;
-  return damage;
+  return damage2;
 }
 void Robot::reset(){
   hp = maxHP;
